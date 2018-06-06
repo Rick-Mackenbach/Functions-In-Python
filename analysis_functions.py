@@ -128,8 +128,6 @@ def find_most_similar(sentences):
 
 ## This is an alternative, shorter and cleaner approach ##
 def find_most_similar_shorter(sentences):
-    ## Took the argument snippet for vectorizer from stackOverflow, which makes the code a lot less dense
-    ## source (https://stackoverflow.com/questions/27673527/how-should-i-vectorize-the-following-list-of-lists-with-scikit-learn)
     vectorizer = CountVectorizer(tokenizer=lambda doc: doc, lowercase=False)
     
     ## Use CountVectorizer
