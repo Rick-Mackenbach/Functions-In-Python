@@ -5,10 +5,6 @@ import sklearn.metrics.pairwise
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-def identify_me():
-    return ("Mackenbach", "Rick", "u782848")
-
-
 def matrix_median_correlation(x):
     temp = []
     for i in range(x.shape[1]):
